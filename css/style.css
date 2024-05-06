@@ -29,7 +29,7 @@
 .main .main__content {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 410px 200px 200px;
+    grid-template-rows: 510px 250px 250px;
     column-gap: 20px;
 }
 
@@ -58,8 +58,9 @@ hr {
 }
 
 .main__text,
-.main__audio {
-    justify-self: end;
+.main__audio,
+.main__map {
+    justify-self: center;
     align-self: center;
 }
 
